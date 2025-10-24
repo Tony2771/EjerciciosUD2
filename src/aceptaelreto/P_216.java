@@ -19,7 +19,5 @@ public class P_216 {
             segundos=goteras%60;
             System.out.printf("%02d:%02d:%02d\n", horas, minutos,segundos);
         }
-        
     }
-
 }
