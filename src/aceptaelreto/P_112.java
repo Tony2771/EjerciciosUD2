@@ -6,8 +6,8 @@ public class P_112 {
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        int distancia, velocidadMax, tiempo;
-        double multa, operacion;
+        int distancia, velocidadMax;
+        double multa, operacion,tiempo;
 
         while (true) {
             distancia = in.nextInt();
@@ -24,7 +24,7 @@ public class P_112 {
 
             operacion = distancia / tiempo;
             operacion *= 3.6D;
-            multa = velocidadMax * 0.8D;
+            multa = velocidadMax * 1.2D;
 
             if (operacion < velocidadMax) {
                 System.out.println("OK");
