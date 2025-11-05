@@ -22,8 +22,8 @@ public class P_112 {
                 continue;
             }
 
-            operacion = distancia / tiempo;
-            operacion *= 3.6D;
+            operacion = distancia / tiempo;//Hallamos los m/s.
+            operacion *= 3.6D; //Convertimos los m/s en km/h.
             multa = velocidadMax * 1.2D;
 
             if (operacion < velocidadMax) {
